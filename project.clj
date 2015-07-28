@@ -1,10 +1,10 @@
-(defproject ip-map "1.0.0"
+(defproject clipran "1.0.0"
   :description "Generate commands from a range of IP's and map them to a single IP"
-  :url "http://example.com/FIXME"
-  :license {:name "Eclipse Public License"
-            :url "http://www.eclipse.org/legal/epl-v10.html"}
-  :main ip-map.core
-  :aot [ip-map.core]
+  :url "https://github.com/dxlr8r"
+  :license {:name "Modified BSD license"
+            :url "https://github.com/dxlr8r/clipran/blob/master/LICENSE"}
+  :main clipran.core
+  :aot [clipran.core]
   :dependencies [[org.clojure/clojure "1.6.0"]
                  [clj-pid "0.1.2"]
                  [org.clojure/tools.cli "0.3.1"]
