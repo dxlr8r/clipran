@@ -4,12 +4,16 @@ CLojure IP TOOLS: Library for doing mathematical operations to an IP address and
 
 ## Usage
 
-Getting started:
+###Getting started:
+
+I plan to host this on clojars in the future. But for now I would recommend installing it through [localrepo](https://github.com/kumarshantanu/lein-localrepo). First download the source code, then cd into the source and execute: `lein clean ; lein jar ; lein localrepo install target/*.jar no.ifixit/cliptools "1.0.0"`
+
+Then you can require the library into clojure as you would any other library:
 
 `(require '[cliptools.calculate :refer [ip-math-operation]]
           '[cliptools.generate :refer [ip-list]])`
 
-Functions:
+###Functions:
 
 * ip-math-operation, does an operation to an IP address, example:
   * `(ip-math-operation + "192.168.1.1" 2560)`, returns `"192.168.11.1"`
