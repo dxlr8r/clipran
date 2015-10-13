@@ -12,7 +12,7 @@ Getting started:
 Functions:
 
 * ip-math-operation, does an operation to an IP address, example:
-  * `(ip-math-operation + "192.168.1.1" 1)`, returns `"192.168.1.2"`
+  * `(ip-math-operation + "192.168.1.1" 2560)`, returns `"192.168.11.1"`
 * ip-list, will return IPs as a list, examples:
   * rng-str: `(ip-list "192.168.1.1-192.168.1.10")`
   * to from: `(ip-list "192.168.1.1" "192.168.1.10")`
