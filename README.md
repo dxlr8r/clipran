@@ -1,6 +1,6 @@
 # cliptools
 
-CLojure IP TOOLS: Library for creating a list of IPs and more
+CLojure IP TOOLS: Library for doing mathematical operations to an IP address and creating lists
 
 ## Usage
 
