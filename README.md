@@ -24,9 +24,7 @@ Then you can require the library into clojure as you would any other library:
     * (int->ip (+ (ip->int "10.0.192.128") (ip->int "10.0.64.128"))), returns `"20.1.1.0"`
   * ip-math-operation, does an operation to an IP address, example:
     * `(ip-math-operation + "10.0.192.128" 167788672)`, returns `"20.1.1.0"`
-
 * cliptools.validate, library for validation of input.
-
 * cliptools.generate, combines calculate and validate, contains one function:
   * ip-list, will return IPs as a list, examples:
     * rng-str: `(ip-list "192.168.1.1-192.168.1.10")`
