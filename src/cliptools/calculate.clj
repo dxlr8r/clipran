@@ -5,7 +5,7 @@
 (defn- floor [x] (bigint (Math/floor x)))
 (defn- expt [decimal exp] (apply * (repeat exp decimal)))
 
-(defn- iph "Convert binary <-> integer helper"
+(defn- iph "Convert decimal octet <-> integer helper"
   ([n]   (iph 1 n))
   ([x n] (* x (expt 256 n))))
 
